@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Development Club</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+      <link rel="stylesheet" href="Style.css">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+           ></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav>
+            <img src="images/fc.png" alt="">
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fas fa-times"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active" href="blog.html">Blog</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <img id="menu-btn" src="images/menu.png" alt="">
+
+            </div> 
+ 
+
+
+        </nav>
+
+        <!-- Home -->
+        <section id="blog-container"  >
+        <div class="blogs"> 
+            <div class="post">
+                <img src="images/b1.jpg" alt="">
+                <h3>Learn Web Development </h3>
+                <p>Embark on an exhilarating journey into the heart of web development, where the alchemy of HTML, CSS, and JavaScript transforms digital landscapes. Picture HTML as the scaffolding, laying the groundwork for content, while CSS adds the aesthetic brushstrokes, and JavaScript breathes life into the static canvas, enabling seamless interactivity.
+                <br><br>
+                Embark on an exhilarating journey into the heart of web development, where the alchemy of HTML, CSS, and JavaScript transforms digital landscapes. Picture HTML as the scaffolding, laying the groundwork for content, while CSS adds the aesthetic brushstrokes, and JavaScript breathes life into the static canvas, enabling seamless interactivity.
+                
+                As you traverse the terrain of responsive design, witness the magic of your creations adapting harmoniously to diverse devices. Venture into the back-end labyrinth, where server-side scripts and database wizardry transmute your web pages into dynamic, data-driven marvels.
+                
+                But it doesn't end there. Engage in the symphony of creation through hands-on projects – the crucible where your evolving skills meld with creativity. From personal portfolios to robust applications, each project narrates your coding prowess, a journey etched in every line of code.
+                
+                Yet, the odyssey is perpetual. Ride the waves of innovation, explore cutting-edge frameworks, and dance with emerging technologies. Join the global chorus of developers, exchanging ideas, participating in challenges, and sculpting the future of the digital realm.
+                
+                So, seize this digital frontier, weave your narrative, and orchestrate a masterpiece with every keystroke. Your coding saga awaits – an epic of creation, discovery, and perpetual evolution. Happy coding, trailblazer! 
+            </p>
+            <a href="Blog.html">Home</a>
+            </div>
+        </div>
+        </section>
+    
+ 
+        <!-- footer -->
+        <footer>
+            <div class="footer-col">
+                <h3>Top Courses</h3>
+                <li>Python</li>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>JavaScript</li>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Courses</li>
+                <li>Registration</li>
+                <li>Join our team</li>
+                <li>Terms of services</li>
+    
+            </div>
+            <div class="footer-col">
+                <h3>features</h3>
+                <li>Training</li>
+                <li>Club Memberships</li>
+                <li>Online certificates</li>
+                <li>Online workshops</li>
+    
+            </div>
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <li>Instructors</li>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Quizzes</li>
+    
+            </div>
+            <div class="footer-col">
+                <h3>News Letter</h3>
+                <p>Subscribe for Daily Information!</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Email Address">
+                    <a href="#" class="yellow">Subscribe</a>
+                </div>
+    
+            </div>
+            <div class="copyright">
+                <p>copyright © 2023 all rights reserved</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </footer>
+    
+        <script>
+
+            
+           $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+
+           });
+
+           $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+
+           });
+
+        </script>
+
+
+    </body>
+
+</html>
